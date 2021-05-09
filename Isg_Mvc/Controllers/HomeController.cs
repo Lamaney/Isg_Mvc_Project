@@ -33,5 +33,13 @@ namespace Isg_Mvc.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+    
+        public FileResult Download(string file) {
+            byte[] fileBytes = System.IO.File.ReadAllBytes(("~/Content/" + file + ""));
+            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, file);
+
+        }
+
+    
     }
 }

@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Isg_Mvc.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Isg_Mvc
 {
@@ -24,6 +26,7 @@ namespace Isg_Mvc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<PageContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ISG_DB")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
