@@ -20,7 +20,6 @@ C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\obj\Debug\netcoreapp3.1\Isg_M
 C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\obj\Debug\netcoreapp3.1\Isg_Mvc.TagHelpers.output.cache
 C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\obj\Debug\netcoreapp3.1\Isg_Mvc.RazorCoreGenerate.cache
 C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -77,3 +76,4 @@ C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\bin\Debug\netcoreapp3.1\runti
 C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Omer\github repos\Isg_Mvc_Project\Isg_Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Post.cshtml.g.cs

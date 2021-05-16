@@ -14427,8 +14427,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Omer\\github repos\\Isg_Mvc_Project\\Isg_Mvc\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Omer\\github repos\\Isg_Mvc_Project\\Isg_Mvc\\Views\\Home\\Post.cshtml",
+      "TargetPath": "Views\\Home\\Post.cshtml",
       "FileKind": "mvc"
     },
     {

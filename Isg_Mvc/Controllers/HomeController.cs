@@ -22,7 +22,7 @@ namespace Isg_Mvc.Controllers
 
         public IActionResult Index()
         {
-            var list=_context.Blog.ToList();
+            var list=_context.Blog.OrderByDescending(x => x.CreateTime).ToList();
 
             foreach (var blog in list)
             {
@@ -32,11 +32,14 @@ namespace Isg_Mvc.Controllers
             return View(list);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Post(int Id)
         {
-            return View();
-        }
+            var blog=_context.Blog.Find(Id);
+            blog.Author=_context.Author.Find(blog.AuthorId);
 
+            return View(blog);
+        }
+       
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
