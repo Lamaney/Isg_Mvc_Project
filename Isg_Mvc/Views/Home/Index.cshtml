@@ -1,58 +1,25 @@
-﻿@{
+﻿@model IEnumerable<Isg_Mvc.Models.Blog>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
+        @foreach (var item in Model)
+        {
+            <div class="post-preview">
           <a href="isgnedir.html">
             <h2 class="post-title">
-              İş Sağlığı ve Güvenliği Nedir?
+              @item.Title
             </h2>
             <h3 class="post-subtitle">
-              İSG kısaltmasıyla iş hayatında yoğun olarak kullanılan iş sağlığı ve güvenliği tanımı...
+              @item.Subtitle
             </h3>
           </a>
-          <p class="post-meta">Ömer Faruk Aydın tarafından yazıldı.
+          <p class="post-meta">@item.Author.Name tarafından @item.CreateTime 'da yayınlandı.
         </div>
         <hr>
-        <div class="post-preview">
-          <a href="isg10kural.html">
-            <h2 class="post-title">
-              İş Sağlığı ve Güvenliğinin 10 Altın Kuralı.
-            </h2>
-            <h3 class="post-subtitle">
-              10 Adımda daha güvenli bir çalışma ortamı yaratmak.
-            </h3>
-          </a>
-          <p class="post-meta">Ömer Faruk Aydın tarafından yazıldı.
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="isgmevzuatı.html">
-            <h2 class="post-title">
-              İş Sağlığı ve Güvenliği Mevzuatı.
-            </h2>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          </a>
-          <p class="post-meta">Ömer Faruk Aydın tarafından yazıldı.
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="isgamaci.html">
-            <h2 class="post-title">
-              İş Sağlığı ve Güvenliği Çalışmalarının Amacı.
-            </h2>
-            <h3 class="post-subtitle">
-             Daha güvenli çalışma alanlarıyla yüksek verim elde etmenin yolu nereden geçiyor?
-            </h3>
-          </a>
-          <p class="post-meta">Ömer Faruk Aydın tarafından yazıldı.
-        </div>
-        <hr>
+        }
         
         
-      </div>
-    </div>
+</div>

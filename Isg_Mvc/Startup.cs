@@ -26,7 +26,7 @@ namespace Isg_Mvc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<PageContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ISG_DB")));
+            services.AddDbContext<BlogContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ISG_DB")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
