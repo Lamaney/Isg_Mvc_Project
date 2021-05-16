@@ -10,7 +10,7 @@
           <div class="post-heading">
             <h1>@Model.Title</h1>
             <h2 class="subheading">@Model.Subtitle</h2>
-            <span class="meta">@Model.Author tarafından @Model.CreateTime tarihinde yayınlandı.
+            <span class="meta">@Model.Author.Name @Model.Author.Surname tarafından @Model.CreateTime tarihinde yayınlandı.
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          @Html.Raw(Model.Content);
+          @Html.Raw(Model.Content)
         </div>
       </div>
     </div>

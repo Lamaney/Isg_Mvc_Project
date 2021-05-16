@@ -22,7 +22,7 @@ namespace Isg_Mvc.Controllers
 
         public IActionResult Index()
         {
-            var list=_context.Blog.OrderByDescending(x => x.CreateTime).ToList();
+            var list=_context.Blog.Where(publish_status => publish_status.Is_Publish).OrderByDescending(create_time => create_time.CreateTime).ToList();
 
             foreach (var blog in list)
             {
@@ -30,6 +30,18 @@ namespace Isg_Mvc.Controllers
             }
 
             return View(list);
+        }
+
+         public IActionResult About()
+        {
+            
+            return View();
+        }
+
+         public IActionResult Contact()
+        {
+            
+            return View();
         }
 
         public IActionResult Post(int Id)

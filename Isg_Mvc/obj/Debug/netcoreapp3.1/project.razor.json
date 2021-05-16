@@ -14402,6 +14402,11 @@
   "RootNamespace": "Isg_Mvc",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Omer\\github repos\\Isg_Mvc_Project\\Isg_Mvc\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Omer\\github repos\\Isg_Mvc_Project\\Isg_Mvc\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -14414,6 +14419,11 @@
     {
       "FilePath": "c:\\Users\\Omer\\github repos\\Isg_Mvc_Project\\Isg_Mvc\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Omer\\github repos\\Isg_Mvc_Project\\Isg_Mvc\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
     },
     {
